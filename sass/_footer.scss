@@ -1,0 +1,20 @@
+.footer {
+  background-color: $color-secondary;
+  grid-column: full-start / full-end;
+}
+.nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+
+  &__item {
+    list-style: none;
+    padding: 2rem 4rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+}
